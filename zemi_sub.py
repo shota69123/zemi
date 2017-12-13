@@ -9,7 +9,7 @@ from sensor_msgs.msg import Imu
 
 def callback(data):
     e = tf.transformations.euler_from_quaternion((data.orientation.x, data.orientation.y, data.orientation.z, data.orientation.w))
-    rospy.loginfo(str(e[0]), str(e[1]), str(e[2]))
+    rospy.loginfo("%s, %s, %s" % (e[0], e[1], e[2]))
 
 def listener():
     rospy.init_node('listener', anonymous=True)
