@@ -17,7 +17,7 @@ def callback(data):
 
 def listener():
     rospy.init_node('listener', anonymous=True)
-    rospy.subscriber("/imu", imu, callback)
+    rospy.Subscriber("/imu", imu, callback)
     rospy.spin()
     
 if __name__ == '__main__':
