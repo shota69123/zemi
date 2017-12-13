@@ -5,7 +5,7 @@
 
 import rospy
 import tf
-from sensor_msgs.msg import imu
+from sensor_msgs.msg import Imu
 
 def quaternion_to_eurler(quaternion):
     e = tf.transformations.euler_from_quaternion((quaternion.x, quaternion.y, quaternion.z, quaternion.w))
