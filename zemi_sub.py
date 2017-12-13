@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #Created on Wed Nov 29 16:04:55 2017
 #@author: shota
