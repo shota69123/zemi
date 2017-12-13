@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Nov 29 16:04:55 2017
-
-@author: shota
-"""
+#Created on Wed Nov 29 16:04:55 2017
+#@author: shota
 
 import rospy
 import tf
